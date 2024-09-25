@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    
+<div class="container">
+
+    <!-- topbar -->
+    <div class="topbar">
+        <div class="logo">
+            <h2>SparX</h2>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search here.." class="searchbar">
+            <label> <i class="fas fa-search" style="position: absolute; top: 10px; right: 15px;"></i> </label>
+        </div>
+
+        <i class="fas fa-bell"></i>
+
+        <div class="user">
+            <img src="images/user png/img1.png" alt="">
+        </div>
+    </div>
+
+    <!-- sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href=""><i class="fas fa-th-large icon"></i>
+                <div class="das">Dashboard</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-user-graduate icon"></i>
+                    <div class="das">Students</div>
+                </a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-chalkboard-teacher icon"></i>
+                <div class="das">Teacher</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-user icon"></i>
+                <div class="das">Employee</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-chart-bar icon"></i>
+                <div class="das">Analytics</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-hand-holding-usd icon"></i>
+                <div class="das">Earning</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-cog icon"></i>
+                <div class="das">Setting</div></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-question icon"></i>
+                <div class="das">Help</div></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="count">
+                        1256
+                    </div>
+                    <div class="card-name">
+                        Student
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="count">
+                        50
+                    </div>
+                    <div class="card-name">
+                        Teacher
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="count">
+                        200
+                    </div>
+                    <div class="card-name">
+                        Employee
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="count">
+                        4500
+                    </div>
+                    <div class="card-name">
+                        Earning
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts">
+            <div class="chart">
+                <h2>Earnings</h2>
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart" id="doughnutchart">
+                <h2>Employee</h2>
+                <div>
+                    <canvas id="chart2"></canvas>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!--  chart js -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js"></script>
+
+    <!-- doughnut js -->
+    <script src="js/doughnut.js"></script>
+
+    <!-- counter -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  <script src="js/counter.js"></script>
+    
+</body>
+</html>
