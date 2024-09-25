@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css">
+    
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper.css">
+    
+    <!-- popins css -->
+    <link rel="stylesheet" href="css/poppins.css">
+
+    <!-- oswald css -->
+    <link rel="stylesheet" href="css/oswald.css">
+</head>
+<body>
+    
+    <!-- header -->
+   <header class="header_wrapper">
+
+    <nav class="navbar navbar-expand-lg shadow">
+      <div class="container">
+        <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.1.png" alt="" height="60px">
+        </a>
+
+        <!-- navbar item -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  data-bs-dismiss="Toggle">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="main-btn" style="text-decoration: none; color: black;">
+                  book me
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   </header>
+
+   <!-- banner -->
+
+   <section class="banner_wrapper" id="home">
+
+    <div class="swiper">
+      
+      <div class="swiper-wrapper">
+      
+           <div class="swiper-slide" style="background-image: url(images/slide.1.jpg);">
+            <div class="swiper-caption text-center">
+                <div>
+                   <h1>Welcome to Seratone</h1>
+                    <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, repellendus quasi. Atque adipisci molestias explicabo soluta dolore nam quo similique esse porro ad quidem, minima facere, possimus distinctio quibusdam aut.
+                    </p>
+                </div>
+            </div> 
+           </div>
+     
+           
+           <div class="swiper-slide" style="background-image:url(images/slide.5.jpg)">
+            <div class="swiper-caption text-center">
+              <div>
+                  <h1>Welcome to Seratone</h1>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, repellendus quasi. Atque adipisci molestias explicabo soluta dolore nam quo similique esse porro ad quidem, minima facere, possimus distinctio quibusdam aut.
+                  </p>
+              </div>
+            </div> 
+            </div>
+
+            
+            <div class="swiper-pagination"></div>
+            
+      </div>
+   </div>
+
+        <!-- booking area -->
+
+        <div class="container booking_area">
+            <div class="row">
+              <div class="col-lg mb-3 mb-lg-0">
+                <input type="date" class="form-control" placeholder="date">
+              </div>
+    
+              <div class="col-lg mb-3 mb-lg-0">
+                <input type="date" class="form-control" placeholder="date">
+              </div>
+    
+              <div class="col-lg mb-3 mb-lg-0">
+                  <select class="form-select">
+                      <option value="">adult</option>
+                      <option value="">adult</option>
+                      <option value="">adult</option>
+                      <option value="">adult</option>
+                      <option value="">adult</option>
+                  </select>
+              </div>
+    
+              
+              <div class="col-lg mb-3 mb-lg-0 ">
+                <select class="form-select">
+                    <option value="">adult</option>
+                    <option value="">adult</option>
+                    <option value="">adult</option>
+                    <option value="">adult</option>
+                    <option value="">adult</option>
+                </select>
+            </div>
+    
+            <div class="col-lg mb-3 mb-lg-0">
+              <select class="form-select">
+                  <option value="">adult</option>
+                  <option value="">adult</option>
+                  <option value="">adult</option>
+                  <option value="">adult</option>
+                  <option value="">adult</option>
+              </select>
+          </div>
+            </div>
+        </div>
+
+   </section>
+
+   <!-- about -->
+   <section class="about_wrapper" id="about">
+
+        <div class="container mt-5">
+              <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h3>Welcome to <span> Hotel Sheraton</span><br><span>The heaven</span> of Your Weekend</h3> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus atque quasi ratione saepe laboriosam consequatur molestiae sint velit asperiores rerum, sit cumque repudiandae mollitia officia dolorum, minus quae tempore.</p> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur libero accusantium nobis, odio ipsa alias iste dolorum quasi, laboriosam labore? Est eligendi sed maiores fugiat praesentium? Architecto, similique enim.</p>
+                        <a class="main-btn" style="text-decoration: none; color: black;">Expolre</a>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-end col-md-12 mt-md-3">
+                        <div>
+                          <img src="images/about/image.1.jpg" alt="" class="img-fluid" style="height: 300px;">
+                        </div>
+                    </div>  
+              </div>
+        </div>
+
+   </section>
+
+   <!-- rooms -->
+
+    <section class="room_wrapper" id="rooms">
+
+        <div class="container">
+          <div class="row">
+            <!-- first -->
+            <div class="col-4">
+                <div class="room_item">
+                  <img src="images/room/image.1" alt="" class="img-fluid" style="height: 500px;">
+                  <div class="room_item_wrap justify-content-center d-flex">
+                      <div class="room_content">
+                          <h6>General</h6>
+                          <p>
+                            Four Points is a nice hotel with excellent food and service. They offer complementary fruit, chocolates and coffee in the room.
+                          </p>
+                          <a class="main-btn" style="text-decoration: none; color: white; background-color: blue;">Expolre</a>
+                             
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <!-- second -->
+            <div class="col-4">
+              <div class="room_item">
+                <img src="images/room/image.2.jpg" alt="" class="img-fluid" style="height: 500px;">
+                <div class="room_item_wrap justify-content-center d-flex">
+                    <div class="room_content">
+                        <h6>3 Star </h6>
+                        <p>
+                          Four Points is a nice hotel with excellent food and service. They offer complementary fruit, chocolates and coffee in the room.
+                        </p>
+                        <a class="main-btn" style="text-decoration: none; color: white; background-color: blue;">Expolre</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- third -->
+            <div class="col-4">
+              <div class="room_item">
+                <img src="images/room/image.3.jpg" alt="" class="img-fluid" style="height: 500px;">
+                <div class="room_item_wrap justify-content-center d-flex">
+                    <div class="room_content">
+                        <h6>5 Star</h6>
+                        <p>
+                          Four Points is a nice hotel with excellent food and service.  
+                          They offer complementary fruit, chocolates and coffee in the room.
+                        </p>
+                        <a class="main-btn" style="text-decoration: none; color: white; background-color: blue;">Expolre</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- service -->
+
+    <section class="service_wrapper" id="service">
+        <div class="container">
+          <div class="row service_item" >
+            <!-- image block -->
+              <div class="col-lg-7">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <img src="images/service/image 5.jpg  " alt="" class="img-fluid" >
+                  </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <img src="images/service/image (2).jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                      <img src="images/service/image 3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- second -->
+              <div class="col-lg-5">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <span class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                      <div class="service_item">
+                        <img src="images/service/swiming.logo.avif" alt="" style="height: 100px;">
+                      </div>        
+                      <div class="paragraph" style="color: green;">
+                          <h6>Swiming</h6>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      </div>
+                    </span>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <span class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                      <div class="service_item">
+                        <img src="images/service/swiming.logo.avif" alt="" style="height: 100px;">
+                      </div>        
+                      <div class="paragraph" style="color: green;">
+                          <h6>Swiming</h6>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      </div>
+                    </span>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <span class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                      <div class="service_item">
+                        <img src="images/service/food.logo.avif" alt="" style="height: 100px;">
+                      </div>        
+                      <div class="paragraph" style="color: green;">
+                          <h6>Food</h6>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- extra-image -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="extra_light mt-5">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- team-info -->
+
+    <section class="team_wrapper" id="texm">
+        <div class="container">
+            <div class="row">
+              <!-- first staff member -->
+                <div class="col-lg-3 p-0 m-0">
+                    <div class="card p-0 m-0">
+                        <img src="images/staff-team/image.1.jpg" alt="" class="img-fluid ">
+
+                        <div class="team_info">
+                            <h5>Tony</h5>
+                            <p>General Manager</p>
+                            <ul class="social_network">
+                              <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>                  
+                </div>
+
+                <!-- second member -->
+                <div class="col-lg-3 p-0 m-0">
+                  <div class="card p-0 m-0">
+                      <img src="images/staff-team/image.2.jpg" alt="" class="img-fluid">
+
+                      <div class="team_info">
+                          <h5>alexa</h5>
+                          <p>Assistant General Manager</p>
+                          <ul class="social_network">
+                            <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>                  
+              </div>
+
+              <!-- third member -->
+              <div class="col-lg-3 p-0 m-0">
+                <div class="card p-0 m-0">
+                    <img src="images/staff-team/image.3.jpg" alt="" class="img-fluid">
+
+                    <div class="team_info">
+                        <h5>kevin</h5>
+                        <p>staff member</p>
+                        <ul class="social_network">
+                          <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                          <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>                  
+            </div>
+
+            <!-- fourth member -->
+            <div class="col-lg-3 p-0 m-0">
+              <div class="card p-0 m-0">
+                  <img src="images/staff-team/image.4.png" alt="" class="img-fluid">
+
+                  <div class="team_info">
+                      <h5>Angelina</h5>
+                      <p>Cook</p>
+                      <ul class="social_network">
+                        <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>                  
+          </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery_wrapper" id="gallery">
+          <div class="container">
+               <div class="row justify-content-center">
+                   <div class="col-lg-3 p-lg-0 gallery_item">
+                       <img src="images/gallery/image.1.jpg" alt="" class="w-100 h-100">
+                       <div class="gallery_item_cont_1"></div>
+                       <div class="gallery_item_cont-2"></div>
+                       <div class="gallery_item_cont_3"></div>
+                       <div class="gallery_item_cont_4"></div>
+                    </div>
+                    <div class="col-lg-3 p-lg-0 gallery_item">
+                        <img src="images/gallery/image.2.jpg" alt="" class="w-100 h-100">
+                        <div class="gallery_item_conte"></div>
+                    </div>
+                    <div class="col-lg-3 p-lg-0 gallery_item">
+                         <img src="images/gallery/image.3.jpg" alt="" class="w-100 h-100">
+                         <div class="gallery_item_content"></div>
+                    </div>
+                    <div class="col-lg-3 p-lg-0 gallery_item">
+                          <img src="images/gallery/image.4.jpg" alt="" class="w-100 h-100">
+                          <div class="gallery_item_content"></div>
+                    </div>
+
+                    <div class="col-lg-6 gallery_item p-lg-0">
+                        <img src="images/gallery/image.5.jpg" alt="" class="w-100 h-100">
+                    </div>
+                    
+                    <div class="col-lg-6 gallery_item p-lg-0">
+                      <img src="images/gallery/image.6.jpg" alt="" class="w-100 h-100">
+                  </div>
+              
+                  
+               </div>
+          </div>
+    </section>
+
+    <section class="card_wrapper" id="price">
+        <div class="container">
+            <div class="row">
+                  <!-- first -->
+                  <div class="col-lg-4 card_item">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Card title</h5>
+                      <p class="card-text" style="text-align: justify; padding: 0px 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa similique? Hic maxime voluptatem saepe optio corrupti laboriosam deleniti. Veritatis porro explicabo, nobis qui quos cumque quidem libero pariatur placeat!
+                      Eveniet asperiores laboriosam quos omnis debitis odit ipsum, quas dolores, ducimus odio consequatur possimus aliquid assumenda, aliquam nemo quod quis eligendi magni. Nemo obcaecati, excepturi eligendi repudiandae veritatis reprehenderit ullam?</p>
+                      <a href="#" class="main-btn" style="text-decoration: none;">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <!-- second -->
+                  <div class="col-lg-4 card_item">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Card title</h5>
+                      <p class="card-text" style="text-align: justify; padding: 0px 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa similique? Hic maxime voluptatem saepe optio corrupti laboriosam deleniti. Veritatis porro explicabo, nobis qui quos cumque quidem libero pariatur placeat!
+                      Eveniet asperiores laboriosam quos omnis debitis odit ipsum, quas dolores, ducimus odio consequatur possimus aliquid assumenda, aliquam nemo quod quis eligendi magni. Nemo obcaecati, excepturi eligendi repudiandae veritatis reprehenderit ullam?</p>
+                      <a href="#" class="main-btn" style="text-decoration: none;">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <!-- third -->
+                  <div class="col-lg-4 card_item">
+                    <div class="card-body text-center">
+                      <h5 class="card-title ">Card title</h5>
+                      <p class="card-text" style="text-align: justify; padding: 0px 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa similique? Hic maxime voluptatem saepe optio corrupti laboriosam deleniti. Veritatis porro explicabo, nobis qui quos cumque quidem libero pariatur placeat!
+                      Eveniet asperiores laboriosam quos omnis debitis odit ipsum, quas dolores, ducimus odio consequatur possimus aliquid assumenda, aliquam nemo quod quis eligendi magni. Nemo obcaecati, excepturi eligendi repudiandae veritatis reprehenderit ullam?</p>
+                      <a href="#" class="main-btn" style="text-decoration: none;">Go somewhere</a>
+                    </div>
+                  </div>
+
+          </div>
+        </div>
+    </section>
+
+    <section class="footer_wrapper" id="blog">
+          <div class="container">
+              <div class="row justify-content-center d-flex ">
+                  <div class="col-lg-3 footer_item">
+                      <h6 class="mt-2">Hotel Location</h6>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt blanditiis impedit culpa enim nostrum consequatur, expedita accusamus repellat accusantium, nihil libero! Alias beatae error voluptatibus voluptas est natus corporis.</p>
+                      <div>
+                        <a href="" style="color: white; text-decoration: none;"> <i class="fas fa-home"></i> 2099, paladium mall, yogichowk, surat</a>
+                      
+                      </div>
+                      <div>
+                        <a href="" style="color: white; text-decoration: none;"><i class="fas fa-phone-alt" style="padding-top: 30px;"></i>+1111 2222</a>
+                      </div>
+                      <div>
+                        <a href="" style="color: white; text-decoration: none;"><i class="fas fa-envelope" style="padding-top: 30px;"></i> 5067keyurkanpariya@gmail.com</a>
+                      </div>
+                  </div>
+
+                    <div class="col-lg-3 footer_item">
+                      <h6 class="mt-2">Hotel Location</h6>
+                      <ul>
+                        <li><a href="" style="text-decoration: none;">About us</a></li>
+                        <li><a href="" style="text-decoration: none;">Our office</a></li>
+                        <li><a href="" style="text-decoration: none;">Delivery</a></li>
+                        <li><a href="" style="text-decoration: none;">Our store</a></li>
+                        <li><a href="" style="text-decoration: none;">Guarantee</a></li>
+                        <li><a href="" style="text-decoration: none;">Buy Gift card</a></li>
+                        <li><a href="" style="text-decoration: none;">Return policy</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 footer_item">
+                      <h6 class="mt-2">Hotel Location</h6>
+                      <ul>
+                        <li><a href="" style="text-decoration: none;">About us</a></li>
+                        <li><a href="" style="text-decoration: none;">Our office</a></li>
+                        <li><a href="" style="text-decoration: none;">Delivery</a></li>
+                        <li><a href="" style="text-decoration: none;">Our store</a></li>
+                        <li><a href="" style="text-decoration: none;">Guarantee</a></li>
+                        <li><a href="" style="text-decoration: none;">Buy Gift card</a></li>
+                        <li><a href="" style="text-decoration: none;">Return policy</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 footer_item">
+                        <h6 class="mt-2">News letter </h6>
+                        <input type="text" placeholder="enter your email here">
+                        <div class="main-btn mt-3" style="background-color: blue; color: white;">Submit</div>
+
+                        <h6 class="mt-5">Stay connected</h6>
+                    </div>  
+              </div>
+          </div>
+    </section>
+   
+
+
+   <script src="JS/main.js"></script>   
+   <script src="JS/swiper.js"></script>
+</body>
+</html>
